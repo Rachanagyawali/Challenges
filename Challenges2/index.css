@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:black;
+    background-color: #fff;
+    /* height: 100%;
+    width:100%; */
+   
+}
+
+.top{
+    border:5px solid red;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top1{
+    width:40%;
+    height:50%;
+}
+.top1 img{
+    height:50%;
+    width:80%;
+}
+
+.top2{
+   
+    width:60%;  
+    display: flex;
+    flex-direction: column;
+    font-family: "Big Shoulders Display", "sans-serif";
+
+}
+.top2 h1{
+    font-size:80px;
+    
+}
+
+.top2 p{
+    width:60%;
+    color:hsl(0, 0%, 27%);
+    line-height: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.location{
+    margin-top:10px;
+    display: flex;
+    text-align: center;
+}
+
+button{
+    width:150px;
+    color:white;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.location i{
+     background-color:hsl(24, 56%, 63%);
+    font-size: 50px;
+    font-weight: 100;
+    color:white;
+}
+
+.mid{
+  
+    margin:90px auto;
+    width:60%;
+    height:100%;
+
+}
+
+.midtop{
+    width:100%;
+    height:40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right:10px;
+}
+.midrow1col1{
+width:55%;
+padding:40px;
+
+
+}
+
+.midrow1col2{
+width:40%;
+}
+
+.midrow1col1 h1{
+    width:300px;
+    text-align:left;
+    font-size: 35px;
+}
+.midrow1col1 p{
+    width:300px;
+    text-align:left;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.midrow1col2 img{
+    height:300px;
+    width:300px;
+}
+.midbottom{
+    width:100%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.midrow2col1{
+   
+
+width:55%;
+height:100%;
+margin:15px auto;
+}
+
+.midrow2col1 img{
+    height:635px;
+    width:400px;
+}
+
+.midrow2{
+    width:40%;
+    height:100%;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+
+   
+
+}
+
+.midrow2col2{
+    width:100%;
+    height:40%;
+ 
+}
+.midrow2col2 img{
+    height:300px;
+    width:300px;
+}
+
+.midrow3col2{
+    width:100%;
+    height:60%;
+    padding:50px;
+    
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+    
+    }
+    
+    
+    
+    .midrow3col2 h1{
+        width:300px;
+        text-align:left;
+        font-size: 35px;
+    }
+    .midrow3col2 p{
+        width:200px;
+        text-align:left;
+        font-size: 20px;
+        margin-top: 25px;
+    }
